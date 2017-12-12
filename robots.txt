@@ -1,0 +1,92 @@
+User-agent: *
+
+## Magento:
+# Misc
+Disallow: /*.js$
+Disallow: /*.inc$
+Disallow: /*.css$
+Disallow: /*.php$
+Disallow: /*?
+Disallow: /*?SID=
+
+# Magento Paths (clean URLs)
+Disallow: /catalog/product_compare/
+# Disallow: /catalog/category/view/
+# Disallow: /catalog/product/view/
+# Disallow: /catalog/product/gallery/
+Disallow: /catalogsearch/
+Disallow: /checkout/
+Disallow: /control/
+Disallow: /customer/
+Disallow: /customize/
+Disallow: /newsletter/
+Disallow: /poll/
+Disallow: /review/
+Disallow: /sendfriend/
+Disallow: /tag/
+Disallow: /wishlist/
+
+# Magento Directories
+Disallow: /404/
+Disallow: /app/
+Disallow: /cgi-bin/
+Disallow: /downloader/
+Disallow: /errors/
+Disallow: /includes/
+Disallow: /js/
+Disallow: /lib/
+Disallow: /magento/
+# Disallow: /media/
+Disallow: /misc/
+Disallow: /pkginfo/
+Disallow: /report/
+Disallow: /scripts/
+Disallow: /shell/
+Disallow: /skin/
+Disallow: /stats/
+Disallow: /twitter/
+Disallow: /var/
+
+# Magento Files
+Disallow: /cron.php
+Disallow: /cron.sh
+Disallow: /error_log
+Disallow: /install.php
+Disallow: /LICENSE.html
+Disallow: /LICENSE.txt
+Disallow: /LICENSE_AFL.txt
+Disallow: /STATUS.txt
+Disallow: /maintenance.flag
+Disallow: /maintenance.flag-uncomment
+Disallow: /README.md
+Disallow: /RELEASE_NOTES.txt
+Disallow: /Under-Maintenance.html
+
+## WordPress:
+Disallow: /blog*/trackback/
+Disallow: /blog/*.css$
+Disallow: /blog/*.inc$
+Disallow: /blog/*.js$
+Disallow: /blog/*?
+Disallow: /blog/archives/
+Disallow: /blog/author/
+Disallow: /blog/feed/
+Disallow: /blog/readme.html
+Disallow: /blog/tag/
+Disallow: /blog/tag/product/
+Disallow: /blog/trackback/
+Disallow: /blog/wp-admin/
+Disallow: /blog/wp-content/plugins/
+Disallow: /blog/wp-includes/
+Disallow: /wordpress/
+
+# Will this prevent images from being indexed?:
+# Disallow: /blog/wp-content/
+
+# Google
+User-agent: Googlebot
+Disallow:
+User-agent: Googlebot-image
+Disallow:
+User-agent: AdsBot-Google
+Disallow:

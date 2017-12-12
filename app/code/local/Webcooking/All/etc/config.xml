@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+* Vincent Enjalbert
+*
+* Version Française :
+* *****************************************************************************
+*
+* Notification de la Licence
+*
+* Ce fichier source est sujet au CLUF
+* qui est fourni avec ce module dans le fichier LICENSE-FR.txt.
+* Il est également disponible sur le web à l'adresse suivante:
+* http://www.web-cooking.net/licences/magento/LICENSE-FR.txt
+*
+* =============================================================================
+*        NOTIFICATION SUR L'UTILISATION DE L'EDITION MAGENTO
+* =============================================================================
+* Ce module est conçu pour l'édition COMMUNITY de Magento
+* WebCooking ne garantit pas le fonctionnement correct de cette extension
+* sur une autre édition de Magento excepté l'édition COMMUNITY de Magento.
+* WebCooking ne fournit pas de support d'extension en cas
+* d'utilisation incorrecte de l'édition.
+* =============================================================================
+*
+* English Version :
+* *****************************************************************************
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the EULA
+* that is bundled with this package in the file LICENSE-EN.txt.
+* It is also available through the world-wide-web at this URL:
+* http://www.web-cooking.net/licences/magento/LICENSE-EN.txt
+*
+* =============================================================================
+*                 MAGENTO EDITION USAGE NOTICE
+* =============================================================================
+* This package designed for Magento COMMUNITY edition
+* WebCooking does not guarantee correct work of this extension
+* on any other Magento edition except Magento COMMUNITY edition.
+* WebCooking does not provide extension support in case of
+* incorrect edition usage.
+* =============================================================================
+*
+* @category   Webcooking
+* @package    Webcooking_All
+* @copyright  Copyright (c) 2011-2013 Vincent René Lucien Enjalbert
+* @license    http://www.web-cooking.net/licences/magento/LICENSE-EN.txt
+-->
+<config>
+    <modules>
+        <Webcooking_All>
+            <version>1.0.0</version>
+        </Webcooking_All>
+    </modules>	
+    <admin>
+        <routers>
+            <wcooall>
+                <use>admin</use>
+                <args>
+                    <module>Webcooking_All</module>
+                    <frontName>wcooall</frontName>
+                </args>
+            </wcooall>
+        </routers>
+    </admin>
+
+    <global>
+        <blocks>
+            <wcooall>
+                <class>Webcooking_All_Block</class>
+            </wcooall>
+        </blocks>
+        <models>
+            <wcooall>
+                <class>Webcooking_All_Model</class>
+            </wcooall>
+        </models>
+        <resources>
+            <wcooall_setup>
+                <setup>
+                    <module>Webcooking_All</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </wcooall_setup>
+            <wcooall_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </wcooall_write>
+            <wcooall_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </wcooall_read>
+        </resources>
+        <helpers>
+            <wcooall>
+                <class>Webcooking_All_Helper</class>
+            </wcooall>
+        </helpers>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <wcooall>
+                    <file>webcooking/wcooall.xml</file>
+                </wcooall>
+            </updates>
+        </layout>
+    </adminhtml>
+    <frontend>
+        <layout>
+            <updates>
+                <wcooall>
+                    <file>webcooking/wcooall.xml</file>
+                </wcooall>
+            </updates>
+        </layout>
+    </frontend>
+</config>

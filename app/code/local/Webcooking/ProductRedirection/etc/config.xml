@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+* Vincent Enjalbert
+*
+* Version Française :
+* *****************************************************************************
+*
+* Notification de la Licence
+*
+* Ce fichier source est sujet au CLUF
+* qui est fourni avec ce module dans le fichier LICENSE-FR.txt.
+* Il est également disponible sur le web à l'adresse suivante:
+* http://www.web-cooking.net/licences/magento/LICENSE-FR.txt
+*
+* =============================================================================
+*        NOTIFICATION SUR L'UTILISATION DE L'EDITION MAGENTO
+* =============================================================================
+* Ce module est conçu pour l'édition COMMUNITY de Magento
+* WebCooking ne garantit pas le fonctionnement correct de cette extension
+* sur une autre édition de Magento excepté l'édition COMMUNITY de Magento.
+* WebCooking ne fournit pas de support d'extension en cas
+* d'utilisation incorrecte de l'édition.
+* =============================================================================
+*
+* English Version :
+* *****************************************************************************
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the EULA
+* that is bundled with this package in the file LICENSE-EN.txt.
+* It is also available through the world-wide-web at this URL:
+* http://www.web-cooking.net/licences/magento/LICENSE-EN.txt
+*
+* =============================================================================
+*                 MAGENTO EDITION USAGE NOTICE
+* =============================================================================
+* This package designed for Magento COMMUNITY edition
+* WebCooking does not guarantee correct work of this extension
+* on any other Magento edition except Magento COMMUNITY edition.
+* WebCooking does not provide extension support in case of
+* incorrect edition usage.
+* =============================================================================
+*
+* @category   Webcooking
+* @package    Webcooking_ProductRedirection
+* @copyright  Copyright (c) 2011-2013 Vincent René Lucien Enjalbert
+* @license    http://www.web-cooking.net/licences/magento/LICENSE-EN.txt
+-->
+<config>
+    <modules>
+        <Webcooking_ProductRedirection>
+            <version>1.0.4</version>
+        </Webcooking_ProductRedirection>
+    </modules>	
+    <admin>
+        <routers>
+            <productredirection>
+                <use>admin</use>
+                <args>
+                    <module>Webcooking_ProductRedirection</module>
+                    <frontName>productredirection</frontName>
+                </args>
+            </productredirection>
+        </routers>
+    </admin>
+
+    <global>
+        <blocks>
+            <productredirection>
+                <class>Webcooking_ProductRedirection_Block</class>
+            </productredirection>
+        </blocks>
+        <models>
+            <productredirection>
+                <class>Webcooking_ProductRedirection_Model</class>
+            </productredirection>
+            <catalog>
+                <rewrite>
+                    <url>Webcooking_ProductRedirection_Model_Catalog_Url</url>
+                </rewrite>
+            </catalog>
+        </models>
+        <resources>
+            <productredirection_setup>
+                <setup>
+                    <module>Webcooking_ProductRedirection</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </productredirection_setup>
+            <productredirection_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </productredirection_write>
+            <productredirection_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </productredirection_read>
+        </resources>
+        <helpers>
+            <productredirection>
+                <class>Webcooking_ProductRedirection_Helper</class>
+            </productredirection>
+        </helpers>
+        <events>
+            <cataloginventory_stock_item_save_after>
+                <observers>
+                    <productredirection_cataloginventory_stock_item_save_after>
+                        <type>singleton</type>
+                        <class>Webcooking_ProductRedirection_Model_Observer</class>
+                        <method>observeCataloginventoryStockItemSaveAfter</method>
+                    </productredirection_cataloginventory_stock_item_save_after>
+                </observers>
+            </cataloginventory_stock_item_save_after>
+            <catalog_product_save_after>
+                <observers>
+                    <productredirection_catalog_product_save_after>
+                        <type>singleton</type>
+                        <class>Webcooking_ProductRedirection_Model_Observer</class>
+                        <method>observeCatalogProductSaveAfter</method>
+                    </productredirection_catalog_product_save_after>
+                </observers>
+            </catalog_product_save_after>
+        </events>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <productredirection>
+                    <file>webcooking/productredirection.xml</file>
+                </productredirection>
+            </updates>
+        </layout>
+    </adminhtml>
+    <frontend>
+        <layout>
+            <updates>
+                <productredirection>
+                    <file>webcooking/productredirection.xml</file>
+                </productredirection>
+            </updates>
+        </layout>
+    </frontend>
+</config>

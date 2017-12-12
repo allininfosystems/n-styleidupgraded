@@ -1,0 +1,82 @@
+Vincent Enjalbert - Web Cooking
+www.web-cooking.net
+
+CE CONTRAT DE LICENCE (CONTRAT CI-APRES) EST UN CONTRAT ENTRE VOUS (LA
+PERSONNE OU L'ENTREPRISE AGREEE POUR UTILISER LE LOGICIEL OU LA DOCUMENTATION)
+ET WebCooking (DESIGNE PAR NOUS CI-APRES). LE CONTRAT S'APPLIQUE A TOUS
+LES PRODUITS/LOGICIELS/SCRIPTS/SERVICES QUE VOUS ACHETEZ CHEZ NOUS.
+
+1. En achetant le Logiciel, vous reconnaissez avoir lu ce Contrat, accepter le
+   contenu de ce Contrat et ses termes, et accepter d'utiliser le Logiciel
+   conformément au présent Contrat.
+
+2. Le Contrat entre légalement en vigueur au moment où vous commandez notre
+   Logiciel sur notre site ou lorsque vous le recevez par mail ou tout autre 
+   support de notre choix.
+
+3. Nous sommes le titulaire du droit d'auteur du Logiciel. Le Logiciel ou une 
+   partie de celui-ci est protégé et est couvert d'une protection par la loi.
+   Toute activité qui enfreint les termes de ce Contrat constitue une violation
+   du droit d'auteur et sera poursuivi conformément à la loi actuelle. Nous nous
+   réservons le droit de révoquer la licence de n'importe quel utilisateur qui
+   détient une licence invalide.
+
+4. Ce Contrat vous donne le droit d'utiliser qu'une seule copie du Logiciel sur
+   une installation Magento uniquement pour votre usage personnel ou 
+   professionnel, soumis à tous les autres conditions de ce Contrat. Une licence
+   distincte doit être achetée pour chaque nouvelle installation du Logiciel.
+   Toute distribution du Logiciel sans consentement de notre part, incluant une
+   distribution non commerciale, est considérée comme une violation de ce
+   Contrat et entraîne votre responsabilité en accord avec la loi actuelle.
+
+5. Vous ne pouvez pas utiliser n'importe quelle partie du code dans son ensemble
+   ou une partie dans un autre logiciel, produit ou site internet.
+
+6. Vous ne pouvez pas donner, vendre, distribuer, accorder une sous-licence,
+   louer ou prêter toute partie du Logiciel ou de la Documentation à personne.
+   Vous ne pouvez pas mettre en place le Logiciel sur un serveur qui est
+   accessible via un réseau public comme Internet à des fins de distribution.
+
+7. Vous êtes tenu de conserver les informations du droit d'auteur intactes, ce
+   qui incluent le texte/lien en bas.
+
+8. Nous nous réservons le droit de publier une liste sélective d'utilisateurs de
+   notre Logiciel.
+
+9. Nous ne serons pas tenus responsables de tout dommage (incluant toute perte
+   de bénéfices/épargnes, secondaire ou importante) résultant de votre fait,
+   votre information et votre entreprise découlant de l'utilisation ou
+   l'impossibilité d'utiliser ce Logiciel.
+
+10. Nous ne sommes pas passibles de poursuites découlant de l'utilisation du
+    Logiciel contre la loi ou pour toute utilisation illégale.
+
+11. Si vous ne parvenez pas à utiliser le Logiciel conformément aux termes et
+    aux conditions de ce Contrat de Licence, cela constitue une violation de ce
+    contrat, et votre licence d'utiliser le logiciel est abrogée.
+
+12. WebCooking réserve le droit de modifier ce contrat de licence à tout
+    moment et d'imposer ses clauses à un moment donné.
+
+13. Le Contrat de licence reste en vigueur jusqu'à résiliation. Nous nous
+    réservons le droit de mettre fin à votre licence d'utiliser le Logiciel à
+    tout moment, si à sa seule discrétion, vous ne respectez pas les conditions
+    de ce Contrat, y compris mais sans s'y limiter, en occultant ou en
+    supprimant tout lien ou notification de droit d'auteur comme spécifié dans
+    ce Contrat. Vous pouvez le résilier à tout moment en supprimant toutes les
+    copies du Logiciel. La résiliation de ce Contrat ne nous engage pas au
+    remboursement du montant de l'achat du Logiciel.
+
+14. Si vous continuez à utiliser le Logiciel après que WebCooking vous fait
+    parvenir une notification de résiliation de votre licence, vous acceptez par
+    la présente une injonction qui vous interdit la poursuite de son utilisation
+    et de payer tous les coûts (y compris mais sans s'y limiter aux honoraires
+    raisonnables d'avocat) pour faire respecter notre révocation de votre
+    licence et tout dommage subi par nous à cause de votre mauvais usage du
+    Logiciel.
+
+15. Ce logiciel est conçu pour l'édition vierge ( = sans autre module externe) 
+    COMMUNITY de Magento. WebCooking ne garantit pas le fonctionnement correct
+    de cette extension sur une autre édition de Magento excepté l'édition
+    COMMUNITY de Magento. WebCooking ne fournit pas de support d'extension en
+    cas d'utilisation incorrecte de l'édition.
